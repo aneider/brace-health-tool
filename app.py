@@ -6,7 +6,7 @@ client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
 
 st.set_page_config(page_title="Payer Negotiation Tool", page_icon="🏥", layout="centered")
 
-st.title("Free Payer Negotiation Tool")
+st.title("Brace Health Free Payer Negotiation Tool")
 st.subheader("Get a customized letter and action plan to negotiate better rates with your payers")
 st.markdown("---")
 
